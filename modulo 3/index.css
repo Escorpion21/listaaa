@@ -1,0 +1,136 @@
+body {
+   width: 100%;
+}
+h1 {
+    text-align: center;
+   color: blue;
+   background-color: rgb(12, 255, 202);
+  
+  border: 4rem;
+  border-radius: 2rem;
+ border-top: 4rem;
+
+
+
+}
+.contenedor {
+    
+ 
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+   
+}
+#Lista {
+    width: 40%;
+    height: 2rem;
+    border-radius: 3rem;
+border-color: color-mix(in srgb, red 70%, blue 30%);
+
+}
+
+.contenedor-1 {
+
+
+    display: flex;
+    justify-content: center;
+    right: 3rem;
+  padding: 0rem;
+  
+ 
+}
+
+
+
+
+.boton1{
+    width: 3rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 4rem;
+    border-color: rgb(7, 237, 245);
+    cursor: pointer;
+    background-color: transparent;
+    
+    }
+    
+.verif {
+    color:rgb(22, 255, 1)
+}
+.invalid {
+    color:red;
+   
+}
+#boton-agregar{
+    width: 3rem;
+height: 2.5rem;
+
+display: flex;
+justify-content: center;
+border-bottom: 1rem;
+border: transparent;
+background-color: transparent;
+cursor: pointer;
+
+}
+
+.icon-verif {
+  width: 2rem;
+    color: rgb(0, 255, 0);
+    
+  
+}
+
+.icon-eliminated {  
+    width: 2rem;
+    color: red;
+  
+}
+#contacts-list{
+    width: 20rem;
+   
+    width: 30%; /* Ancho del elemento */
+    height: 30rem; /* Alto del elemento */
+    overflow-y: auto; /* Solo agrega barra de desplazamiento vertical */
+  /* Solo agrega barra de desplazamiento vertical */
+ 
+}
+.contacts-list-item {
+  
+
+   display: flex;
+   justify-content: center;
+  
+
+
+
+}
+.tareas {
+   
+
+width: 100% ;
+
+
+}
+#contenedor3{
+   display: flex;
+   justify-content: center;
+align-items: center;
+height: 100vh;
+}
+#informacion {
+
+text-align: start;
+    
+}
+.tarea-denegada {
+    text-decoration: line-through;
+    color: red;
+}
+.tarea-confirmada {
+    text-decoration: double;
+    color: green;
+}
+#contenedo3 { align-content: space-between;
+text-align: center;}
